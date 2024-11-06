@@ -303,7 +303,7 @@
   "Normal": "Normal",
   "Not paid": "Não pago",
   "Note": "Nota",
-  "Note (only visible to landlord)": "Nota (somente visível para a organização)",
+  "Note (visible to tenant)": "Nota (visível para o inquilino)",
   "Number of terms": "Número de ciclos",
   "Occupancy rate": "Taxa de ocupação",
   "Occupied by {{tenant}}": "Ocupado por {{tenant}}",
