@@ -19,3 +19,6 @@ Eu alterei o docker-compose.microservices.prod.yml para refletir as alterações
 
 ### Rodar DOMAIN https setup:  
 `docker APP_DOMAIN=app.example.com APP_PROTOCOL=https compose -f docker-compose.microservices.prod.yml --profile local up`
+
+### Parar serviços local (produção):  
+`docker compose -f docker-compose.microservices.prod.yml down`  
