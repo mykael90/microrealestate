@@ -15,10 +15,10 @@
 Eu alterei o docker-compose.microservices.prod.yml para refletir as alterações do arquivo local e não do dockerhub do projeto. Dessa forma, posso fazer as implementações necessárias.  
 
 ### Rodar Ip setup:  
-`docker APP_DOMAIN=x.x.x.x compose -f docker-compose.microservices.prod.yml --profile local up`
+`sudo APP_DOMAIN=x.x.x.x docker compose -f docker-compose.microservices.prod.yml up`
 
 ### Rodar DOMAIN https setup:  
-`docker APP_DOMAIN=app.example.com APP_PROTOCOL=https compose -f docker-compose.microservices.prod.yml --profile local up`
+`sudo APP_DOMAIN=app.example.com APP_PROTOCOL=https docker compose -f docker-compose.microservices.prod.yml up`
 
 ### Parar serviços local (produção):  
 `docker compose -f docker-compose.microservices.prod.yml down`  
