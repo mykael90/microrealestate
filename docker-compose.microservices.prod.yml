@@ -65,7 +65,7 @@ services:
       PDFGENERATOR_URL: http://pdfgenerator:8300/pdfgenerator
       EMAILER_URL: http://emailer:8400/emailer
       LANDLORD_FRONTEND_URL: http://landlord-frontend:8180
-      LANDLORD_BASE_PATH: /landlord
+      LANDLORD_BASE_PATH: ${LANDLORD_BASE_PATH}
       TENANT_FRONTEND_URL: http://tenant-frontend:8190
       TENANT_BASE_PATH: /tenant
       APP_DOMAIN: ${APP_DOMAIN:-localhost}
