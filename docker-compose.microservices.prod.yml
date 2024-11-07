@@ -294,7 +294,7 @@ services:
       context: .
       dockerfile: webapps/landlord/Dockerfile
     environment:
-      BASE_PATH: ${LANDLORD_BASE_PATH}
+      BASE_PATH: /landlord
       PORT: 8180
       DOCKER_GATEWAY_URL: http://gateway:8080
       CORS_ENABLED: 'true'
