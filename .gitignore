@@ -7,6 +7,7 @@ tmp
 .vscode/ipch
 deploy-*.sh
 dist
+.rest-client/token.http
 
 # Logs
 logs

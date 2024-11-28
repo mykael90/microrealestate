@@ -1,0 +1,29 @@
+### Variables
+@contentType = application/json
+
+### GET index front
+GET {{frontUrl}}
+
+### GET realms
+GET {{apiUrl}}/realms
+Authorization: Bearer {{token}}
+
+### GET properties
+GET {{apiUrl}}/properties
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+### GET rents
+GET {{apiUrl}}/rents/2024/11
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+### GET leases
+GET {{apiUrl}}/leases
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+### GET tenants
+GET {{apiUrl}}/tenants
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
