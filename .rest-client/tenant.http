@@ -1,0 +1,136 @@
+### Variables
+@contentType = application/json
+
+### GET tenants
+GET {{apiUrl}}/tenants
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+### GET a tenant
+# @prompt tenantId
+GET {{apiUrl}}/tenants/{{tenantId}}
+Authorization: Bearer {{token}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+### GET realms
+# @prompt tenantId
+PATCH {{apiUrl}}/tenants/{{tenantId}}
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+OrganizationId: 672ccbff194c2f04ab94667b
+
+{
+  "_id": "6749a804ada511c44b7fffab",
+  "realmId": "672ccbff194c2f04ab94667b",
+  "name": "Marcelo Barros",
+  "company": null,
+  "legalForm": "",
+  "siret": "",
+  "capital": null,
+  "reference": "SGA5TJVC15KP",
+  "beginDate": "01/01/2025",
+  "properties": [
+    {
+      "propertyId": "6749a7a9ada511c44b7fff78",
+      "property": {
+        "realmId": "672ccbff194c2f04ab94667b",
+        "type": "building",
+        "name": "AC-50 Neópolis",
+        "description": "Casa",
+        "surface": null,
+        "phone": "",
+        "digicode": "",
+        "address": {
+          "street1": "",
+          "street2": "",
+          "zipCode": "",
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "price": 3000,
+        "_id": "6749a7a9ada511c44b7fff78",
+        "__v": 0
+      },
+      "rent": 3000,
+      "expenses": [
+        {
+          "title": "Taxa de administração",
+          "amount": 300,
+          "beginDate": "01/01/2024",
+          "endDate": "31/12/2027"
+        },
+              {
+          "title": "Reajuste 1",
+          "amount": 420,
+          "beginDate": "01/01/2026",
+          "endDate": "31/12/2027"
+        },
+                     {
+          "title": "Reajuste 2",
+          "amount": 500,
+          "beginDate": "01/01/2027",
+          "endDate": "31/12/2027"
+        }
+      ],
+      "entryDate": "05/01/2025",
+      "exitDate": "31/12/2027"
+    }
+  ],
+  "stepperMode": false,
+  "contacts": [
+    {
+      "contact": "Marcelo Barros",
+      "email": "eng.mykael@gmail.com",
+      "_id": "6749a81eada511c44b7fffc5"
+    }
+  ],
+  "__v": 0,
+  "city": "Natal",
+  "contract": "",
+  "country": "Brasil",
+  "discount": 0,
+  "endDate": "31/12/2027",
+  "guaranty": 0,
+  "isCompany": false,
+  "isVat": false,
+  "manager": "Marcelo Barros",
+  "rcs": "",
+  "street1": "Av. das Alagoas",
+  "street2": "Após posto BR",
+  "vatRatio": 0,
+  "zipCode": "59086200",
+  "guarantyPayback": 0,
+  "leaseId": "6749a70fada511c44b7fff47",
+  "filesToUpload": [],
+  "frequency": "months",
+  "rental": 3000,
+  "expenses": 300,
+  "total": 3300,
+  "contactEmails": [
+    "eng.mykael@gmail.com"
+  ],
+  "hasContactEmails": true,
+  "status": "inprogress",
+  "terminated": false,
+  "lease": {
+    "_id": "6749a70fada511c44b7fff47",
+    "realmId": "672ccbff194c2f04ab94667b",
+    "name": "ANA X MARCELO",
+    "active": true,
+    "stepperMode": false,
+    "__v": 0,
+    "description": "LOCAÇÃO DE CASA",
+    "numberOfTerms": 36,
+    "timeRange": "months"
+  },
+  "office": {
+    "surface": 0,
+    "price": 3000
+  },
+  "parking": {
+    "price": 0
+  },
+  "preTaxTotal": 3300,
+  "hasPayments": false
+}

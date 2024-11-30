@@ -5,7 +5,7 @@
       "frontUrl": "http://localhost:8080/landlord"
     },
     "development": {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50Ijp7ImZpcnN0bmFtZSI6Ik15a2FlbCIsImxhc3RuYW1lIjoiTWVsbG8iLCJlbWFpbCI6ImVuZy5teWthZWxAZ21haWwuY29tIiwiY3JlYXRlZERhdGUiOiIyMDI0LTExLTA3VDE0OjE2OjM3LjMyMVoiLCJfX3YiOjB9LCJpYXQiOjE3MzI4MzQ4NDYsImV4cCI6MTczMjg3ODA0Nn0.tI3oOWQ5L94p3T6zaNg0W0oZKy5o9eEfAR-ha9bJWwQ"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50Ijp7ImZpcnN0bmFtZSI6Ik15a2FlbCIsImxhc3RuYW1lIjoiTWVsbG8iLCJlbWFpbCI6ImVuZy5teWthZWxAZ21haWwuY29tIiwiY3JlYXRlZERhdGUiOiIyMDI0LTExLTA3VDE0OjE2OjM3LjMyMVoiLCJfX3YiOjB9LCJpYXQiOjE3MzI4ODA4NjUsImV4cCI6MTczMjkyNDA2NX0.U03nRk3cznwacX-P_QayneUMx-fu0zeJMNNGHlJi268"
     },
     "production": {
       "token": "TODO TOKEN"
