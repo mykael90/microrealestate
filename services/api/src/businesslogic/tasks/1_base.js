@@ -55,8 +55,9 @@ export default function taskBase(
             ...expenses
               .filter(({ beginDate, endDate }) => {
                 const expenseBegin = moment(beginDate, 'DD/MM/YYYY');
-                const expenseEnd = moment(endDate, 'DD/MM/YYYY');
-
+                const expenseEnd = moment(endDate, 'DD/MM/YYYY')
+                  .add(1, 'day');
+                  
                 return currentMoment.isBetween(
                   expenseBegin,
                   expenseEnd,
